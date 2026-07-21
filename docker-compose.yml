@@ -1,3 +1,5 @@
+version: '3.8'
+
 services:
   # Laravel App (PHP 8.3)
   app:
