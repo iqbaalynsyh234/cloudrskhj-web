@@ -18,8 +18,7 @@ services:
       - APP_ENV=local
       - APP_DEBUG=true
     depends_on:
-      db:
-        condition: service_healthy
+      - db
     networks:
       - cloudrskhj
 
